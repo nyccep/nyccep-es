@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)chrome-extension://gkndfifopckmhdkohjeoljlbfnjhekfg/data/ui/autosave.html#2 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<link href="chrome-extension://gkndfifopckmhdkohjeoljlbfnjhekfg/data/ui/autosave.css" rel="stylesheet">
+	<script src="chrome-extension://gkndfifopckmhdkohjeoljlbfnjhekfg/data/src/ext/jquery-1.7.1.min.js"></script>
+	<script src="chrome-extension://gkndfifopckmhdkohjeoljlbfnjhekfg/data/src/ext/json2-min.js"></script>
+	<script src="chrome-extension://gkndfifopckmhdkohjeoljlbfnjhekfg/data/src/ext/sjcl.js"></script>
+	<script src="chrome-extension://gkndfifopckmhdkohjeoljlbfnjhekfg/data/src/autosave.min.js"></script>
+	<title>Autosave</title>
+</head>
+<body>
+	<section id="section" class="animateIn">
+		<section id="unlock" class="">
+			<div><h1>Unlock 1Password to save this Login</h1></div>
+			<div><button class="button never">Never for this site</button></div>
+			<form>
+				Master Password <input type="password" name="password" id="password" value="" autofocus="">
+				<input type="submit" name="save" value="Unlock">
+			</form>
+		</section>
+		<section id="save" class="">
+			<div><h1>Would you like to save this Login in 1Password?</h1></div>
+			<div><button class="button never">Never for this site</button></div>
+			<form>
+				Save as <input type="text" name="title" id="title" value="" autofocus="">
+				
+				<img id="drop-down-arrow" src="chrome-extension://gkndfifopckmhdkohjeoljlbfnjhekfg/data/ui/images/drop-down-arrow.png" width="" height="">
+				<input type="submit" name="save" value="Save">
+			</form>
+		</section>
+		
+		<img id="autosave-close" src="chrome-extension://gkndfifopckmhdkohjeoljlbfnjhekfg/data/ui/images/autosave-close.png">
+	</section>
+
+
+</body></html>
